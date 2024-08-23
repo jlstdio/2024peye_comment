@@ -10,13 +10,8 @@ body {
   font-family: 'NanumSquareNeo', sans-serif;
 }
 
-
-
-
 .basic-font {
   font-family: 'NanumSquareNeo', sans-serif;
-  font-size: 15px;
-  font-style: bold;
 }
 
 .galleryView {
@@ -31,6 +26,7 @@ body {
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 10px;
+  height: auto;
   box-sizing: border-box;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -117,8 +113,6 @@ form {
   
   width: 100%;
   max-width: 400px;
-
-
   flex-grow: 1;
   /* height: auto; */
   height: 25vh;
