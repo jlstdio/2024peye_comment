@@ -15,7 +15,7 @@ export default function Home() {
   useEffect(() => {
     fetchCommentsData();
     // 주기적으로 데이터를 가져오도록 설정  10000ms = 10초
-    const intervalId = setInterval(fetchCommentsData, 10000);
+    const intervalId = setInterval(fetchCommentsData, 5000);
 
     return () => clearInterval(intervalId);
   }, []);
