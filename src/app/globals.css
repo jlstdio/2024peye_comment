@@ -15,7 +15,8 @@ body {
 }
 
 .galleryView {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 20px;
   padding: 20px;
@@ -36,9 +37,9 @@ body {
 }
 
 .galleryView .card-item .text {
+  flex-grow: 1;
   font-family: 'NanumSquareNeo', sans-serif;
   font-size: 20px;
-  flex-grow: 1;
 }
 
 .card-item:nth-child(3n+1) {
