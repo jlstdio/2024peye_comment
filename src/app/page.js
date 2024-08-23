@@ -26,7 +26,7 @@ export default function Home() {
         commentsData.map((e, i) => (
           e.active &&
             <div key={i} className='card-item' >
-              <h2 className="wall-content basic-font" >{e.content}</h2>-
+              <h2 className="text" >{e.content}</h2>-
             </div>
 
           )

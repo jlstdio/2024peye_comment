@@ -35,6 +35,12 @@ body {
   justify-content: center;
 }
 
+.galleryView .card-item .text {
+  font-family: 'NanumSquareNeo', sans-serif;
+  font-size: 15px;
+  flex-grow: 1;
+}
+
 .card-item:nth-child(3n+1) {
   height: 220px;
 }
